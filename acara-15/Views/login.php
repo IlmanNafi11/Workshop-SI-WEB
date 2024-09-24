@@ -52,7 +52,7 @@
     <?php
     if (isset($_SESSION['msg'])) {
         echo "<script>alert('" . $_SESSION['msg'] . "');</script>";
-        unset($_SESSION['msg']); // Menghapus pesan setelah ditampilkan
+        unset($_SESSION['msg']);
     }
      ?>
 
